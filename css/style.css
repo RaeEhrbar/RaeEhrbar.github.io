@@ -2095,3 +2095,20 @@ span.error {
 .gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
   margin-bottom: 10px;
 }
+
+/* Portfolio cover image sizing */
+.portfolio-item {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
